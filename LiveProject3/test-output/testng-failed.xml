@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object Model with Page Factories]">
+  <listeners>
+    <listener class-name="com.mt.listeners.CustomListeners"/>
+    <listener class-name="com.mt.errorcollectors.TestListenerAdapter"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Sign in Test(failed)">
+    <classes>
+      <class name="com.mt.testcases.SignInTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="signInTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.mt.testcases.SignInTest -->
+    </classes>
+  </test> <!-- Sign in Test(failed) -->
+  <test name="Flight Search Test(failed)">
+    <classes>
+      <class name="com.mt.testcases.FlightSearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="flightSearchTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mt.testcases.FlightSearchTest -->
+    </classes>
+  </test> <!-- Flight Search Test(failed) -->
+</suite> <!-- Failed suite [Page Object Model with Page Factories] -->

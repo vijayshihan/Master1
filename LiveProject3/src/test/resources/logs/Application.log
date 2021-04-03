@@ -1,0 +1,8 @@
+20/03/2021 14:42:23 devpinoyLogger Launching Chrome
+20/03/2021 14:42:56 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (54344d71fcb6da79dfbca7dda769f569)] -> css selector: #signin-loginid] entered value as : java@way2automation.com
+20/03/2021 14:42:56 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (54344d71fcb6da79dfbca7dda769f569)] -> css selector: #signin-password] entered value as : Selenium@123
+20/03/2021 14:42:56 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (54344d71fcb6da79dfbca7dda769f569)] -> css selector: #submitButton]
+20/03/2021 14:42:58 devpinoyLogger Launching Chrome
+20/03/2021 14:43:03 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on XP (7676c55eaa9617d00d743699f556af6d)] -> xpath: //*[@id='uitk-tabs-button-container']/li[2]]
+20/03/2021 14:43:03 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (7676c55eaa9617d00d743699f556af6d)] -> xpath: //button[@aria-label='Leaving from']] entered value as : Delhi, India (DEL-Indira Gandhi Intl.)
+20/03/2021 14:43:04 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on XP (7676c55eaa9617d00d743699f556af6d)] -> xpath: //button[@aria-label='Going to']] entered value as : Seattle, WA, United States (SEA-Seattle - Tacoma Intl.)
